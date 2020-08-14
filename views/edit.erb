@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <form action="/<%= @file_name%>" method="post">
+    Edit content of <%= @file_name %><br>
+    <textarea name="new_text" rows="20" cols="100"><%= @file_content %></textarea><br>
+    <input type="submit" value="Save Changes">
+  </form>
+</head>
